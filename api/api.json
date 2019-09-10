@@ -1,8 +1,8 @@
 {
   "home": {
     "id": "home",
-    "titulo": "Techno",
-    "descricao": "pregadores intensivos em Vue.js",
+    "titulo": "Puritans.vue",
+    "descricao": "Acervo de pregações puritanas!",
     "avaliacoes": [
       {
         "nome": "teste",

@@ -1,36 +1,47 @@
 <template>
-  <div id="home">
-    <img alt="Vue logo" src="@/assets/logo.png" />
-    <h1>Styled Components no Vue.js</h1>
-    <div>
-      <CButton>Clique Aqui</CButton>
-      <CButtonProps primary>Clique Aqui</CButtonProps>
-      <CButtonPropsCond>Clique Aqui Condicional</CButtonPropsCond>
+  <div>
+    <div v-if="loading">
+      <pageLoading />
     </div>
+    <transition>
+      <div v-if="api" class="conteudo">
+        <div>
+          <h1>Sobre a {{ api.titulo }}</h1>
+          <p>{{ api.descricao }}</p>
+          <router-link class="btn-pregacoes" tag="button" to="/pregacoes">Pregações</router-link>
+        </div>
+        <div>
+          <img src="@/assets/puritan.png" alt="Puritan.vue" />
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
 <script>
-import CButton from "@/components/Button";
-import CButtonProps from "@/components/ButtonProps";
-import CButtonPropsCond from "@/components/ButtonPropsCond";
+import fetchData from "@/mixins/fetchData.js";
+
 export default {
-  name: "home",
-  components: {
-    CButton,
-    CButtonProps,
-    CButtonPropsCond
+  name: "Home",
+  mixins: [fetchData],
+  created() {
+    this.fetchData("/home");
   }
 };
 </script>
 
-<style>
-#home {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.btn-pregacoes {
+  border: none;
+  border-radius: 4px;
+  background: #4b8;
+  color: white;
+  cursor: pointer;
+  padding: 15px 40px;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
 }
 </style>
