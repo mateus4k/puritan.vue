@@ -6,7 +6,7 @@
       </div>
       <ul>
         <li>
-          <router-link to="/pregacoes">Pregações</router-link>
+          <router-link to="/pregadores">Pregadores</router-link>
         </li>
         <li>
           <router-link to="/contato">Contato</router-link>

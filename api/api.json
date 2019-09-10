@@ -1,16 +1,32 @@
 {
   "home": {
     "id": "home",
-    "titulo": "Puritans.vue",
-    "descricao": "Acervo de pregações puritanas!",
-    "avaliacoes": [
+    "titulo": "Puritan.vue",
+    "descricao": "Um acervo de pregações reformadas!",
+    "citacoes": [
       {
-        "nome": "teste",
-        "descricao": "O teste"
+        "autor": "spurgeon",
+        "citacao": "O teste 1"
       },
       {
-        "nome": "teste",
-        "descricao": "O teste"
+        "autor": "edwards",
+        "citacao": "O teste 2"
+      },
+      {
+        "autor": "whitefield",
+        "citacao": "O teste 3"
+      },
+      {
+        "autor": "watson",
+        "citacao": "O teste 4"
+      },
+      {
+        "autor": "bunyan",
+        "citacao": "O teste 5"
+      },
+      {
+        "autor": "owen",
+        "citacao": "O teste 6"
       }
     ]
   },
@@ -19,18 +35,21 @@
     "titulo": "Contato",
     "descricao": "Entre em contato conosco!",
     "contato": {
-      "email": "pregador@pregador.com"
+      "email": "pregador@pregador.com",
+      "campo": "pregador.com",
+      "teste": "pregador.com",
+      "example": "pregador.com"
     }
   },
   "pregadores": {
     "id": "pregadores",
-    "titulo": "pregadores",
+    "titulo": "Pregadores",
     "descricao": "Ouça estes pregadores!",
     "pregador": [
       {
         "id": "watson",
         "nome": "Thomas Watson",
-        "período": "(1620-1686)",
+        "periodo": "1620-1686",
         "descricao": "Thomas Watson...",
         "pregacoes": [
           {
@@ -54,7 +73,7 @@
       {
         "id": "edwards",
         "nome": "Jonathan Edwards",
-        "período": "(1703-1758)",
+        "periodo": "1703-1758",
         "descricao": "Jonathan Edwards...",
         "pregacoes": [
           {
@@ -138,7 +157,7 @@
       {
         "id": "bunyan",
         "nome": "John Bunyan",
-        "período": "(1628-1688)",
+        "periodo": "1628-1688",
         "descricao": "John Bunyan...",
         "pregacoes": [
           {
@@ -150,7 +169,7 @@
       {
         "id": "spurgeon",
         "nome": "C. H. Spurgeon",
-        "período": "(1834-1892)",
+        "periodo": "1834-1892",
         "descricao": "Charles Haddon Spurgeon...",
         "pregacoes": [
           {
@@ -266,7 +285,7 @@
       {
         "id": "owen",
         "nome": "John Owen",
-        "período": "(1616-1683)",
+        "periodo": "1616-1683",
         "descricao": "John Owen...",
         "pregacoes": [
           {
@@ -326,7 +345,7 @@
       {
         "id": "whitefield",
         "nome": "George Whitefield",
-        "período": "(1714-1770)",
+        "periodo": "1714-1770",
         "descricao": "George Whitefield...",
         "pregacoes": [
           {

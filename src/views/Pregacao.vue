@@ -1,10 +1,19 @@
 <template>
-  <div>Pregação</div>
+  <div>
+    <h1>Pregação</h1>
+    {{ api.pregadores.pregador }}
+  </div>
 </template>
 
 <script>
+import fetchData from "@/mixins/fetchData.js";
+
 export default {
-  name: "Pregacao"
+  name: "Pregacao",
+  mixins: [fetchData],
+  created() {
+    this.fetchData("/pregadores");
+  }
 };
 </script>
 

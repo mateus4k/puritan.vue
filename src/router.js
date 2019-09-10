@@ -14,10 +14,29 @@ export default new Router({
       component: Home
     },
     {
-      path: "/pregacoes",
-      name: "pregacoes",
+      path: "/pregadores",
+      name: "pregadores",
+      props: true,
       component: () =>
-        import(/* webpackChunkName: "pregacoes" */ "@/views/Pregacoes.vue")
+        import(/* webpackChunkName: "pregadores" */ "@/views/Pregadores.vue"),
+      children: [
+        {
+          path: "/pregadores/:pregacoes",
+          name: "pregacoes",
+          component: () =>
+            import(/* webpackChunkName: "pregacoes" */ "@/views/Pregacoes.vue"),
+          children: [
+            {
+              path: ":pregacao",
+              name: "pregacao",
+              component: () =>
+                import(
+                  /* webpackChunkName: "pregacao" */ "@/views/Pregacao.vue"
+                )
+            }
+          ]
+        }
+      ]
     },
     {
       path: "/contato",
