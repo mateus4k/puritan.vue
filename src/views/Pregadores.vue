@@ -16,7 +16,7 @@
                 <!-- TODO: rota para pregações do pregador -->
                 <!-- <router-link :to="{ name: 'curso', params: { curso: curso.id }}"> -->
                 <!-- <router-link :to="{ name: 'pregacoes', params: { pregacoes: pregacoes.titulo }}"> -->
-                <router-link to="/pregadores">
+                <router-link :to="{ name: 'pregador', params: { pregador: pregador.id }}">
                   {{ pregador.nome }}
                   <span id="periodo">({{ pregador.periodo }})</span>
                 </router-link>

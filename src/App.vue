@@ -19,8 +19,11 @@ export default {
 </script>
 
 <style>
+html,
 body {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Avenir", Arial, Helvetica, sans-serif;
   color: #234;
 }

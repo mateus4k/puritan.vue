@@ -18,23 +18,20 @@ export default new Router({
       name: "pregadores",
       props: true,
       component: () =>
-        import(/* webpackChunkName: "pregadores" */ "@/views/Pregadores.vue"),
+        import(/* webpackChunkName: "pregadores" */ "@/views/Pregadores.vue")
+    },
+    {
+      path: "/pregadores/:pregador",
+      name: "pregador",
+      props: true,
+      component: () =>
+        import(/* webpackChunkName: "pregacoes" */ "@/views/Pregador.vue"),
       children: [
         {
-          path: "/pregadores/:pregacoes",
-          name: "pregacoes",
+          path: ":pregacao",
+          name: "pregacao",
           component: () =>
-            import(/* webpackChunkName: "pregacoes" */ "@/views/Pregacoes.vue"),
-          children: [
-            {
-              path: ":pregacao",
-              name: "pregacao",
-              component: () =>
-                import(
-                  /* webpackChunkName: "pregacao" */ "@/views/Pregacao.vue"
-                )
-            }
-          ]
+            import(/* webpackChunkName: "pregacao" */ "@/views/Pregacao.vue")
         }
       ]
     },
