@@ -34,9 +34,9 @@ export default {
   name: "Home",
   mixins: [fetchData],
   methods: {
-    random: rand => {
-      rand.sort(() => 0.5 - Math.random());
-    }
+    // random: rand => {
+    //   rand.sort(() => 0.5 - Math.random());
+    // }
   },
   created() {
     this.fetchData("/home");
@@ -48,7 +48,7 @@ export default {
 .btn-pregacoes {
   border: none;
   border-radius: 4px;
-  background: #4b8;
+  background: #e4bc7f;
   color: white;
   cursor: pointer;
   padding: 15px 40px;

@@ -15,8 +15,8 @@ export default {
 
 <style>
 footer {
-  background: #234;
-  position: absolute;
+  background: #473532;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -29,6 +29,6 @@ footer a {
 }
 footer a:hover {
   transition: 0.3s;
-  color: #4b8;
+  color: #e4bc7f;
 }
 </style>

@@ -45,319 +45,475 @@
     "id": "pregadores",
     "titulo": "Pregadores",
     "descricao": "Ouça estes pregadores!",
-    "pregador": [
+    "pregadores": [
       {
         "id": "watson",
         "nome": "Thomas Watson",
         "periodo": "1620-1686",
-        "descricao": "Thomas Watson...",
-        "pregacoes": [
-          {
-            "titulo": "O Que é Glorificar a Deus?",
-            "youtube": "fPF4JXuvpQo"
-          },
-          {
-            "titulo": "Por que Devemos Glorificar a Deus?",
-            "youtube": "pbQmzdN_Gc4"
-          },
-          {
-            "titulo": "Ortodoxia ou a Perdição",
-            "youtube": "olQcZJgK4go"
-          },
-          {
-            "titulo": "Seis componentes do verdadeiro arrependimento",
-            "youtube": "n1pcUnwecDI"
-          }
-        ]
+        "descricao": "Thomas Watson..."
       },
       {
         "id": "edwards",
         "nome": "Jonathan Edwards",
         "periodo": "1703-1758",
-        "descricao": "Jonathan Edwards...",
-        "pregacoes": [
-          {
-            "titulo": "Pecadores nas Mãos de um Deus Irado",
-            "youtube": "fPF4JXuvpQo"
-          },
-          {
-            "titulo": "Humildade",
-            "youtube": "WRXpZRvaYdE"
-          },
-          {
-            "titulo": "Por que Deus decretou o Mal?",
-            "youtube": "dg2eFY5lF8U"
-          },
-          {
-            "titulo": "O Dom Maior!",
-            "youtube": "_r_Q17ZHjzM"
-          },
-          {
-            "titulo": "Inferno",
-            "youtube": "EEj4pDDprck"
-          },
-          {
-            "titulo": "O Coração de um Peregrino",
-            "youtube": "JkW5l7G3KQM"
-          },
-          {
-            "titulo": "\"Pastor, meu filho morreu!\"",
-            "youtube": "-ciKSxjoRuM"
-          },
-          {
-            "titulo": "Bom quando salva e condena",
-            "youtube": "cYCwIie3qEY"
-          },
-          {
-            "titulo": "Você foi escolhido",
-            "youtube": "UkkH3vGMe_8"
-          },
-          {
-            "titulo": "O Dom Maior",
-            "youtube": "_r_Q17ZHjzM"
-          },
-          {
-            "titulo": "A Forca",
-            "youtube": "Urb8XMsPj3A"
-          },
-          {
-            "titulo": "Como sofrer",
-            "youtube": "vp1JRFJ0nJY"
-          },
-          {
-            "titulo": "O Castigo é Infinito?",
-            "youtube": "oPq8Deyb3Zg"
-          },
-          {
-            "titulo": "Como Deus nos muda",
-            "youtube": "y8LV4kRMKx0"
-          },
-          {
-            "titulo": "A Excelência de Cristo",
-            "youtube": "D05ioQ_bsaU"
-          },
-          {
-            "titulo": "O engano do teu Coração",
-            "youtube": "NPrQeCeepHk"
-          },
-          {
-            "titulo": "Você é mundano? Como saber?",
-            "youtube": "bNDXvtFc3Ow"
-          },
-          {
-            "titulo": "Leia a Bíblia contra você",
-            "youtube": "BiB6debS0s4"
-          },
-          {
-            "titulo": "A Natureza enganosa do pecado",
-            "youtube": "cVgpPivFzcI"
-          }
-        ]
+        "descricao": "Jonathan Edwards..."
       },
       {
         "id": "bunyan",
         "nome": "John Bunyan",
         "periodo": "1628-1688",
-        "descricao": "John Bunyan...",
-        "pregacoes": [
-          {
-            "titulo": "Escrevendo a Igreja Afligida",
-            "youtube": "kBwifSpK9Zc"
-          }
-        ]
+        "descricao": "John Bunyan..."
       },
       {
         "id": "spurgeon",
         "nome": "C. H. Spurgeon",
         "periodo": "1834-1892",
-        "descricao": "Charles Haddon Spurgeon...",
-        "pregacoes": [
-          {
-            "titulo": "Eu te Escolhi",
-            "youtube": "Xg4Eaust6gw"
-          },
-          {
-            "titulo": "Culto ou Show?",
-            "youtube": "z__xf3kiau4"
-          },
-          {
-            "titulo": "O Evangelho do Entretenimento",
-            "youtube": "hOm_K9ifUCI"
-          },
-          {
-            "titulo": "O Homem natural Odeia a Graça",
-            "youtube": "QsGGSpAdj4I"
-          },
-          {
-            "titulo": "Conversões Superficiais, Cristianismo Superficial",
-            "youtube": "lyfN5yBvYxM"
-          },
-          {
-            "titulo": "Jamais oculte Cristo em você!",
-            "youtube": "fHUCGi94-uQ"
-          },
-          {
-            "titulo": "A Mais sábia Oração!",
-            "youtube": "3wO3TM_FtUg"
-          },
-          {
-            "titulo": "Vencendo a Carne",
-            "youtube": "XNzQfyN6Lck"
-          },
-          {
-            "titulo": "E Não Sirvamos mais ao Pecado",
-            "youtube": "9R0L-rgXNZo"
-          },
-          {
-            "titulo": "Morra pela Verdade!",
-            "youtube": "EWqzzhT-Fok"
-          },
-          {
-            "titulo": "Caminho Estreito",
-            "youtube": "u7OPFa430HA"
-          },
-          {
-            "titulo": "Orações Indignas",
-            "youtube": "MXJTVplKZOI"
-          },
-          {
-            "titulo": "A Incapacidade Humana",
-            "youtube": "9U7XSzgIGoE"
-          },
-          {
-            "titulo": "Nada além de Folhas",
-            "youtube": "Ywp0V63UYZk"
-          },
-          {
-            "titulo": "Cristo e o Ego",
-            "youtube": "9EozfL4Q4FM"
-          },
-          {
-            "titulo": "Perfeição na Fé",
-            "youtube": "7x_9zOCwn9o"
-          },
-          {
-            "titulo": "O 1º Coral de Natal",
-            "youtube": "Kokvl4cu1Ag"
-          },
-          {
-            "titulo": "Fé",
-            "youtube": "tTylzERIDbE"
-          },
-          {
-            "titulo": "Obediência não é Opcional",
-            "youtube": "Z_ivYrp6arU"
-          },
-          {
-            "titulo": "A Membresia da Igreja",
-            "youtube": "pUzGRRycchQ"
-          },
-          {
-            "titulo": "A Perpetuidade da Lei",
-            "youtube": "0MHrfJplucU"
-          },
-          {
-            "titulo": "O Remédio Universal",
-            "youtube": "EAh8fjBY6_U"
-          },
-          {
-            "titulo": "O Precioso Sangue de Cristo",
-            "youtube": "fhUnE9d0-rk"
-          },
-          {
-            "titulo": "Somente pela Graça",
-            "youtube": "ldwAO-onumU"
-          },
-          {
-            "titulo": "Uma Defesa do Calvinismo",
-            "youtube": "EBkGE74ztHc"
-          },
-          {
-            "titulo": "Predestinação",
-            "youtube": "8gKLfhleOkk"
-          },
-          {
-            "titulo": "Casamento",
-            "youtube": "irPF3ZQlnYg"
-          }
-        ]
+        "descricao": "Charles Haddon Spurgeon..."
       },
       {
         "id": "owen",
         "nome": "John Owen",
         "periodo": "1616-1683",
-        "descricao": "John Owen...",
-        "pregacoes": [
-          {
-            "titulo": "Os três estágios do engano do pecado",
-            "youtube": "3kyjT7eztT4"
-          },
-          {
-            "titulo": "A Provação é Inevitável",
-            "youtube": "gZ5mRHsFYFY"
-          },
-          {
-            "titulo": "Temos visto a Glória de Cristo?",
-            "youtube": "ccrGn20gCgM"
-          },
-          {
-            "titulo": "Lascívia",
-            "youtube": "eNMUyLLEUWs"
-          },
-          {
-            "titulo": "Para que vejam a Minha Glória",
-            "youtube": "3HLhhHNDvxg"
-          },
-          {
-            "titulo": "Expiação Limitada - Deus Filho e Espírito Santo",
-            "youtube": "y5HNDZi1C0g"
-          },
-          {
-            "titulo": "Uma contenda constante contra o pecado",
-            "youtube": "psxqEoLRiyA"
-          },
-          {
-            "titulo": "A Morte da Morte na Morte de Cristo",
-            "youtube": "nyqTbsnisvQ"
-          },
-          {
-            "titulo": "Como vencer toda tentação ",
-            "youtube": "V46WlGCHIYY"
-          },
-          {
-            "titulo": "Minha fraqueza e a tentação",
-            "youtube": "yR3vqZxJGbo"
-          },
-          {
-            "titulo": "Tentação",
-            "youtube": "APYQPx31BDU"
-          },
-          {
-            "titulo": "Quando a tentação te Cega",
-            "youtube": "K8KIZfuraTw"
-          },
-          {
-            "titulo": "Não subestime o poder da tentação",
-            "youtube": "X6sJIvW9zsc"
-          }
-        ]
+        "descricao": "John Owen..."
       },
       {
         "id": "whitefield",
         "nome": "George Whitefield",
         "periodo": "1714-1770",
-        "descricao": "George Whitefield...",
-        "pregacoes": [
-          {
-            "titulo": "Andando com Deus",
-            "youtube": "UhHD-orAOAk"
-          },
-          {
-            "titulo": "Arrependimento",
-            "youtube": "zSR6O0ibwlI"
-          }
-        ]
+        "descricao": "George Whitefield..."
       }
     ]
-  }
+  },
+  "pregador": [
+    {
+      "id": "watson",
+      "nome": "Thomas Watson",
+      "descricao": "Thomas Watson...",
+      "pregacoes": [
+        {
+          "id": 1,
+          "titulo": "O Que é Glorificar a Deus?"
+        },
+        {
+          "id": 2,
+          "titulo": "Por que Devemos Glorificar a Deus?"
+        },
+        {
+          "id": 3,
+          "titulo": "Ortodoxia ou a Perdição"
+        },
+        {
+          "id": 4,
+          "titulo": "Seis componentes do verdadeiro arrependimento"
+        }
+      ]
+    },
+    {
+      "id": "edwards",
+      "nome": "Jonathan Edwards",
+      "descricao": "Jonathan Edwards...",
+      "pregacoes": [
+        {
+          "id": 1,
+          "titulo": "Pecadores nas Mãos de um Deus Irado",
+          "youtube": "fPF4JXuvpQo"
+        },
+        {
+          "id": 2,
+          "titulo": "Humildade",
+          "youtube": "WRXpZRvaYdE"
+        },
+        {
+          "id": 3,
+          "titulo": "Por que Deus decretou o Mal?",
+          "youtube": "dg2eFY5lF8U"
+        },
+        {
+          "id": 4,
+          "titulo": "O Dom Maior!",
+          "youtube": "_r_Q17ZHjzM"
+        },
+        {
+          "id": 5,
+          "titulo": "Inferno",
+          "youtube": "EEj4pDDprck"
+        },
+        {
+          "id": 6,
+          "titulo": "O Coração de um Peregrino",
+          "youtube": "JkW5l7G3KQM"
+        },
+        {
+          "id": 7,
+          "titulo": "\"Pastor, meu filho morreu!\"",
+          "youtube": "-ciKSxjoRuM"
+        },
+        {
+          "id": 8,
+          "titulo": "Bom quando salva e condena",
+          "youtube": "cYCwIie3qEY"
+        },
+        {
+          "id": 9,
+          "titulo": "Você foi escolhido",
+          "youtube": "UkkH3vGMe_8"
+        },
+        {
+          "id": 10,
+          "titulo": "O Dom Maior",
+          "youtube": "_r_Q17ZHjzM"
+        },
+        {
+          "id": 11,
+          "titulo": "A Forca",
+          "youtube": "Urb8XMsPj3A"
+        },
+        {
+          "id": 12,
+          "titulo": "Como sofrer",
+          "youtube": "vp1JRFJ0nJY"
+        },
+        {
+          "id": 13,
+          "titulo": "O Castigo é Infinito?",
+          "youtube": "oPq8Deyb3Zg"
+        },
+        {
+          "id": 14,
+          "titulo": "Como Deus nos muda",
+          "youtube": "y8LV4kRMKx0"
+        },
+        {
+          "id": 15,
+          "titulo": "A Excelência de Cristo",
+          "youtube": "D05ioQ_bsaU"
+        },
+        {
+          "id": 16,
+          "titulo": "O engano do teu Coração",
+          "youtube": "NPrQeCeepHk"
+        },
+        {
+          "id": 17,
+          "titulo": "Você é mundano? Como saber?",
+          "youtube": "bNDXvtFc3Ow"
+        },
+        {
+          "id": 18,
+          "titulo": "Leia a Bíblia contra você",
+          "youtube": "BiB6debS0s4"
+        },
+        {
+          "id": 19,
+          "titulo": "A Natureza enganosa do pecado",
+          "youtube": "cVgpPivFzcI"
+        }
+      ]
+    },
+    {
+      "id": "bunyan",
+      "nome": "John Bunyan",
+      "descricao": "John Bunyan...",
+      "pregacoes": [
+        {
+          "id": 1,
+          "titulo": "Escrevendo a Igreja Afligida"
+        }
+      ]
+    },
+    {
+      "id": "spurgeon",
+      "nome": "C. H. Spurgeon",
+      "descricao": "C. H. Spurgeon...",
+      "pregacoes": [
+        {
+          "id": 1,
+          "titulo": "Eu te Escolhi",
+          "youtube": "Xg4Eaust6gw"
+        },
+        {
+          "id": 2,
+          "titulo": "Culto ou Show?",
+          "youtube": "z__xf3kiau4"
+        },
+        {
+          "id": 3,
+          "titulo": "O Evangelho do Entretenimento",
+          "youtube": "hOm_K9ifUCI"
+        },
+        {
+          "id": 4,
+          "titulo": "O Homem natural Odeia a Graça",
+          "youtube": "QsGGSpAdj4I"
+        },
+        {
+          "id": 5,
+          "titulo": "Conversões Superficiais, Cristianismo Superficial",
+          "youtube": "lyfN5yBvYxM"
+        },
+        {
+          "id": 6,
+          "titulo": "Jamais oculte Cristo em você!",
+          "youtube": "fHUCGi94-uQ"
+        },
+        {
+          "id": 7,
+          "titulo": "A Mais sábia Oração!",
+          "youtube": "3wO3TM_FtUg"
+        },
+        {
+          "id": 8,
+          "titulo": "Vencendo a Carne",
+          "youtube": "XNzQfyN6Lck"
+        },
+        {
+          "id": 9,
+          "titulo": "E Não Sirvamos mais ao Pecado",
+          "youtube": "9R0L-rgXNZo"
+        },
+        {
+          "id": 10,
+          "titulo": "Morra pela Verdade!",
+          "youtube": "EWqzzhT-Fok"
+        },
+        {
+          "id": 11,
+          "titulo": "Caminho Estreito",
+          "youtube": "u7OPFa430HA"
+        },
+        {
+          "id": 12,
+          "titulo": "Orações Indignas",
+          "youtube": "MXJTVplKZOI"
+        },
+        {
+          "id": 13,
+          "titulo": "A Incapacidade Humana",
+          "youtube": "9U7XSzgIGoE"
+        },
+        {
+          "id": 14,
+          "titulo": "Nada além de Folhas",
+          "youtube": "Ywp0V63UYZk"
+        },
+        {
+          "id": 15,
+          "titulo": "Cristo e o Ego",
+          "youtube": "9EozfL4Q4FM"
+        },
+        {
+          "id": 16,
+          "titulo": "Perfeição na Fé",
+          "youtube": "7x_9zOCwn9o"
+        },
+        {
+          "id": 17,
+          "titulo": "O 1º Coral de Natal",
+          "youtube": "Kokvl4cu1Ag"
+        },
+        {
+          "id": 18,
+          "titulo": "Fé",
+          "youtube": "tTylzERIDbE"
+        },
+        {
+          "id": 19,
+          "titulo": "Obediência não é Opcional",
+          "youtube": "Z_ivYrp6arU"
+        },
+        {
+          "id": 20,
+          "titulo": "A Membresia da Igreja",
+          "youtube": "pUzGRRycchQ"
+        },
+        {
+          "id": 21,
+          "titulo": "A Perpetuidade da Lei",
+          "youtube": "0MHrfJplucU"
+        },
+        {
+          "id": 22,
+          "titulo": "O Remédio Universal",
+          "youtube": "EAh8fjBY6_U"
+        },
+        {
+          "id": 23,
+          "titulo": "O Precioso Sangue de Cristo",
+          "youtube": "fhUnE9d0-rk"
+        },
+        {
+          "id": 24,
+          "titulo": "Somente pela Graça",
+          "youtube": "ldwAO-onumU"
+        },
+        {
+          "id": 25,
+          "titulo": "Uma Defesa do Calvinismo",
+          "youtube": "EBkGE74ztHc"
+        },
+        {
+          "id": 26,
+          "titulo": "Predestinação",
+          "youtube": "8gKLfhleOkk"
+        },
+        {
+          "id": 27,
+          "titulo": "Casamento",
+          "youtube": "irPF3ZQlnYg"
+        }
+      ]
+    },
+    {
+      "id": "owen",
+      "nome": "John Owen",
+      "descricao": "John Owen...",
+      "pregacoes": [
+        {
+          "id": 1,
+          "titulo": "Os três estágios do engano do pecado",
+          "youtube": "3kyjT7eztT4"
+        },
+        {
+          "id": 2,
+          "titulo": "A Provação é Inevitável",
+          "youtube": "gZ5mRHsFYFY"
+        },
+        {
+          "id": 3,
+          "titulo": "Temos visto a Glória de Cristo?",
+          "youtube": "ccrGn20gCgM"
+        },
+        {
+          "id": 4,
+          "titulo": "Lascívia",
+          "youtube": "eNMUyLLEUWs"
+        },
+        {
+          "id": 5,
+          "titulo": "Para que vejam a Minha Glória",
+          "youtube": "3HLhhHNDvxg"
+        },
+        {
+          "id": 6,
+          "titulo": "Expiação Limitada - Deus Filho e Espírito Santo",
+          "youtube": "y5HNDZi1C0g"
+        },
+        {
+          "id": 7,
+          "titulo": "Uma contenda constante contra o pecado",
+          "youtube": "psxqEoLRiyA"
+        },
+        {
+          "id": 8,
+          "titulo": "A Morte da Morte na Morte de Cristo",
+          "youtube": "nyqTbsnisvQ"
+        },
+        {
+          "id": 9,
+          "titulo": "Como vencer toda tentação ",
+          "youtube": "V46WlGCHIYY"
+        },
+        {
+          "id": 10,
+          "titulo": "Minha fraqueza e a tentação",
+          "youtube": "yR3vqZxJGbo"
+        },
+        {
+          "id": 11,
+          "titulo": "Tentação",
+          "youtube": "APYQPx31BDU"
+        },
+        {
+          "id": 12,
+          "titulo": "Quando a tentação te Cega",
+          "youtube": "K8KIZfuraTw"
+        },
+        {
+          "id": 13,
+          "titulo": "Não subestime o poder da tentação",
+          "youtube": "X6sJIvW9zsc"
+        }
+      ]
+    },
+    {
+      "id": "whitefield",
+      "nome": "George Whitefield",
+      "descricao": "George Whitefield...",
+      "pregacoes": [
+        {
+          "id": 1,
+          "titulo": "Andando com Deus"
+        },
+        {
+          "id": 2,
+          "titulo": "Arrependimento"
+        }
+      ]
+    }
+  ],
+  "pregacao": [
+    {
+      "id": 1,
+      "titulo": "Andando com Deus",
+      "pregador": {
+        "id": "whitefield",
+        "nome": "George Whitefield"
+      },
+      "youtube": "UhHD-orAOAk"
+    },
+    {
+      "id": 2,
+      "titulo": "Arrependimento",
+      "pregador": {
+        "id": "whitefield",
+        "nome": "George Whitefield"
+      },
+      "youtube": "zSR6O0ibwlI"
+    },
+    {
+      "id": 3,
+      "titulo": "Escrevendo a Igreja Afligida",
+      "pregador": {
+        "id": "bunyan",
+        "nome": "John Bunyan"
+      },
+      "youtube": "kBwifSpK9Zc"
+    },
+    {
+      "id": 4,
+      "titulo": "O Que é Glorificar a Deus?",
+      "pregador": {
+        "id": "watson",
+        "nome": "Thomas Watson"
+      },
+      "youtube": "fPF4JXuvpQo"
+    },
+    {
+      "id": 5,
+      "titulo": "Por que Devemos Glorificar a Deus?",
+      "pregador": {
+        "id": "watson",
+        "nome": "Thomas Watson"
+      },
+      "youtube": "pbQmzdN_Gc4"
+    },
+    {
+      "id": 6,
+      "titulo": "Ortodoxia ou a Perdição",
+      "pregador": {
+        "id": "watson",
+        "nome": "Thomas Watson"
+      },
+      "youtube": "olQcZJgK4go"
+    },
+    {
+      "id": 7,
+      "titulo": "Seis componentes do verdadeiro arrependimento",
+      "pregador": {
+        "id": "watson",
+        "nome": "Thomas Watson"
+      },
+      "youtube": "n1pcUnwecDI"
+    }
+  ]
 }

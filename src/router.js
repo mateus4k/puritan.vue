@@ -14,26 +14,8 @@ export default new Router({
       component: Home
     },
     {
-      path: "/pregadores",
-      name: "pregadores",
-      props: true,
-      component: () =>
-        import(/* webpackChunkName: "pregadores" */ "@/views/Pregadores.vue")
-    },
-    {
-      path: "/pregadores/:pregador",
-      name: "pregador",
-      props: true,
-      component: () =>
-        import(/* webpackChunkName: "pregacoes" */ "@/views/Pregador.vue"),
-      children: [
-        {
-          path: ":pregacao",
-          name: "pregacao",
-          component: () =>
-            import(/* webpackChunkName: "pregacao" */ "@/views/Pregacao.vue")
-        }
-      ]
+      path: "*",
+      component: () => import(/* webpackChunkName: "404" */ "./views/404.vue")
     },
     {
       path: "/contato",
@@ -42,8 +24,26 @@ export default new Router({
         import(/* webpackChunkName: "contato" */ "./views/Contato.vue")
     },
     {
-      path: "*",
-      component: () => import(/* webpackChunkName: "404" */ "./views/404.vue")
+      path: "/pregadores",
+      name: "pregadores",
+      component: () =>
+        import(/* webpackChunkName: "pregadores" */ "@/views/Pregadores.vue")
+    },
+    {
+      path: "/pregadores/:pregador",
+      name: "pregador",
+      component: () =>
+        import(/* webpackChunkName: "pregacoes" */ "@/views/Pregador.vue"),
+      props: true,
+      children: [
+        {
+          path: ":pregacao",
+          name: "pregacao",
+          component: () =>
+            import(/* webpackChunkName: "pregacao" */ "@/views/Pregacao.vue"),
+          props: true
+        }
+      ]
     }
   ]
 });

@@ -23,9 +23,16 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
   box-sizing: border-box;
   font-family: "Avenir", Arial, Helvetica, sans-serif;
-  color: #234;
+  background-color: #ffe;
+  color: #473532;
+  overflow-x: hidden;
+}
+body {
+  margin-bottom: 3rem;
 }
 ul {
   list-style: none;
@@ -35,10 +42,10 @@ ul {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #234;
+  color: #473532;
 }
 a.router-link-exact-active {
-  color: #4b8;
+  color: #e4bc7f;
 }
 img {
   max-width: 100%;

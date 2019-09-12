@@ -10,18 +10,17 @@
           <p>{{ api.descricao }}</p>
         </div>
         <div>
-          <ul class="pregadores-lista">
-            <li v-for="pregador in api.pregador" :key="pregador.id">
-              <h2>
-                <!-- TODO: rota para pregações do pregador -->
-                <!-- <router-link :to="{ name: 'curso', params: { curso: curso.id }}"> -->
-                <!-- <router-link :to="{ name: 'pregacoes', params: { pregacoes: pregacoes.titulo }}"> -->
-                <router-link :to="{ name: 'pregador', params: { pregador: pregador.id }}">
-                  {{ pregador.nome }}
-                  <span id="periodo">({{ pregador.periodo }})</span>
-                </router-link>
-              </h2>
-              <p>{{ pregador.descricao }}</p>
+          <ul class="lista-pregadores">
+            <li v-for="pregador in api.pregadores" :key="pregador.id">
+              <router-link :to="{ name: 'pregador', params: { pregador: pregador.id }}">
+                <div class="card">
+                  <h2>
+                    {{ pregador.nome }}
+                    <span id="periodo">({{ pregador.periodo }})</span>
+                  </h2>
+                  <p>{{ pregador.descricao }}</p>
+                </div>
+              </router-link>
             </li>
           </ul>
         </div>
@@ -43,10 +42,19 @@ export default {
 </script>
 
 <style>
-.pregadores-lista li {
-  margin-bottom: 40px;
+.lista-pregadores li .card {
+  display: block;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
 }
-.pregadores-lista #periodo {
+.lista-pregadores li p {
+  font-weight: 500;
+  color: grey;
+}
+.lista-pregadores #periodo {
   color: grey;
   font-size: 1rem;
 }

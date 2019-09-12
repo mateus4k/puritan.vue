@@ -24,13 +24,13 @@ export default {
 
 <style scoped>
 header {
-  background: #234;
+  background: #473532;
 }
 header a {
   color: white;
 }
 a.router-link-active {
-  color: #4b8;
+  color: #e4bc7f;
 }
 nav {
   max-width: 800px;
