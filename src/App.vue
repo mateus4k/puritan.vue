@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <theHeader />
-    <router-view class="container"></router-view>
+    <main>
+      <router-view class="container"></router-view>
+    </main>
     <theFooter />
   </div>
 </template>
@@ -30,9 +32,6 @@ body {
   background-color: #ffe;
   color: #473532;
   overflow-x: hidden;
-}
-body {
-  margin-bottom: 3rem;
 }
 ul {
   list-style: none;
@@ -71,5 +70,15 @@ img {
   .conteudo {
     display: block;
   }
+}
+
+#app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#app main {
+  flex: 1;
 }
 </style>
